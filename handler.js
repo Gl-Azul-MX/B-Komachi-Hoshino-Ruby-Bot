@@ -403,16 +403,16 @@ export async function handler(chatUpdate) {
 
 global.dfail = (type, m, conn, usedPrefix) => {
     let msg = {
-        rowner: `🍭 Hola, este comando solo puede ser utilizado por el *Creador* de la Bot.`,
-        owner: `🍭 Hola, este comando solo puede ser utilizado por el *Creador* de la Bot y *Sub Bots*.`,
-        mods: `🍭 Hola, este comando solo puede ser utilizado por los *Moderadores* de la Bot.`,
-        premium: `🍭 Hola, este comando solo puede ser utilizado por Usuarios *Premium*.`,
-        group: `🍭 Hola, este comando solo puede ser utilizado en *Grupos*.`,
-        private: `🍭 Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
-        admin: `🍭 Hola, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
-        botAdmin: `🍭 Hola, la bot debe ser *Administradora* para ejecutar este Comando.`,
-        unreg: `🍭 Hola, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg Daniel.17`,
-        restrict: `🍭 Hola, esta característica está *deshabilitada.*`  
+        rowner: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐒𝐎𝐋𝐎 𝐏𝐀𝐑𝐀 𝐄𝐋 𝐂𝐑𝐄𝐀𝐃𝐎𝐑𝐑.`,
+        owner: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐏𝐀𝐑𝐀 𝐋𝐎𝐒 𝐒𝐔𝐁𝐁𝐎𝐓𝐒*.`,
+        mods: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐏𝐀𝐑𝐀 𝐌𝐎𝐃𝐄𝐑𝐀𝐃𝐎𝐑𝐄𝐒.`,
+        premium: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐏𝐀𝐑𝐀 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐍.`,
+        group: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐒𝐎𝐋𝐎 𝐏𝐀𝐑𝐀 𝐆𝐑𝐔𝐏𝐎𝐒.`,
+        private: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐏𝐀𝐑𝐀 𝐌𝐈 𝐂𝐇𝐀𝐓 𝐏𝐑𝐈𝐕𝐀𝐃𝐎.`,
+        admin: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐒𝐎𝐋𝐎 𝐏𝐀𝐑𝐀 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐑𝐄𝐒 𝐃𝐄 𝐄𝐋 𝐆𝐑𝐔𝐏𝐎.`,
+        botAdmin: `❎𝐋𝐀 𝐁𝐎𝐓 𝐃𝐄𝐁𝐄 𝐒𝐄𝐑 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐑𝐀 𝐏𝐀𝐑𝐀 𝐄𝐉𝐄𝐂𝐔𝐓𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎.`,
+        unreg: `❎𝐇𝐎𝐋𝐀, 𝐏𝐀𝐑𝐀 𝐔𝐒𝐀𝐑 𝐀𝐋𝐀 𝐁𝐎𝐓 𝐃𝐄𝐁𝐄𝐒 𝐄𝐒𝐓𝐀𝐑 *𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎.*\n\n𝐔𝐓𝐈𝐋𝐈𝐙𝐀 : */reg nombre.edad*\n\n> 𝐄𝐉𝐄𝐌𝐏𝐋𝐎: /reg Ruby.16`,
+        restrict: `❎𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐍𝐎 𝐄𝐒𝐓𝐀 𝐃𝐈𝐒𝐏𝐎𝐌𝐈𝐁𝐋𝐄 𝐏𝐎𝐑 𝐄𝐋 𝐌𝐎𝐌𝐄𝐍𝐓𝐎.*`  
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
 }
