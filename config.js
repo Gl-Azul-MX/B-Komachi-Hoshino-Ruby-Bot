@@ -27,10 +27,10 @@ global.prems = []
 global.packname = ``
 global.author = '{\n "bot": {\n   "name": "𝐇𝐨𝐬𝐡𝐢𝐧𝐨 𝐑𝐮𝐛𝐲",\n     "author": "𝐆𝐋 𝐀𝐙𝐔𝐋",\n   "status_bot": "𝐀𝐜𝐭𝐢𝐯𝐨"\n }\n}'
 global.wait = '🧸 *𝐑𝐔𝐁𝐘-𝐇𝐎𝐒𝐇𝐈𝐍𝐎-𝐌𝐃💥*'
-global.botname = ''
-global.textbot = `Powered By Starlights Team`
-global.listo = '*🍭 Aqui tiene*'
-global.namechannel = '【 ✯ Starlights Team - Oficial Chanel ✰ 】'
+global.botname = '⏤͟͟͞͞𝐑𝐔𝐁𝐘─𝐇𝐎𝐒𝐇𝐈𝐍𝐎─𝐌𝐃⏤͟͟͞͞★'
+global.textbot = `𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 ✰❦𝐆𝐋 𝐀𝐙𝐔𝐋.𝐌𝐗💥`
+global.listo = '*𝐒𝐔 𝐕𝐈𝐃𝐄𝐎💥*'
+global.namechannel = '𝐍𝐀𝐊𝐀𝐍𝐎 𝐓𝐄𝐀𝐌-𝐀𝐋𝐋 2024'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
