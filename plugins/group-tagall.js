@@ -16,7 +16,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   teks += `└───────✰
 
-© 2024 Starlights Team | All rights reserved`;
+☭☿𝐍𝐀𝐊𝐀𝐍𝐎 𝐓𝐄𝐀𝐌➼➺𝐒𝐓𝐀𝐑𝐆𝐀𝐘𝐒`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
