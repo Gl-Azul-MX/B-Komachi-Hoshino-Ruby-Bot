@@ -30,11 +30,9 @@ const defaultMenu = {
   before: `
 
 
- "> /)_/)
-(,,>.<)  <(𝑯𝒐𝒍𝒂!)
-/ >❤️ 𝑴𝒊 𝒏𝒐𝒎𝒃𝒓𝒆 𝒆𝒔 *𝑵𝒂𝒌𝒂𝒏𝒐*, %greeting "
+ "𝐇𝐨𝐥𝐚 𝐦𝐢 𝐧𝐨𝐦𝐛𝐫𝐞 𝐞𝐬 *𝐑𝐮𝐛𝐲 𝐇𝐨𝐬𝐡𝐢𝐧𝐨*, %greeting "
 
- ╭────═[💞𝕴𝖓𝖋𝖔-𝕭𝖔𝖙💖]═─────⋆
+ 
    ╭══• ೋ•✧๑♡๑✧•ೋ •══╮
   *𝑪𝒂𝒏𝒂𝒍 𝑶𝒇𝒊𝒄𝒊𝒂𝒍* : https://whatsapp.com/channel/0029VaXDEwlC1FuFm82otA0K
   *𝑺𝒐𝒑𝒐𝒓𝒕𝒆* : https://chat.whatsapp.com/LlWSHEMR67ZE8t8mfLm8fu
