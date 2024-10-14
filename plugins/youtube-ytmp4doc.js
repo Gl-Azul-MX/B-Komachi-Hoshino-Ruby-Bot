@@ -12,9 +12,9 @@ let limit = 3000
 
 let handler = async (m, { conn: star, args, text, isPrems, isOwner, usedPrefix, command }) => {
 
-if (!args || !args[0]) return star.reply(m.chat, '🚩 Ingresa el enlace del vídeo de YouTube junto al comando.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* https://youtu.be/QSvaCSt8ixs`, m, rcanal)
+if (!args || !args[0]) return star.reply(m.chat, '🍡 𝐈𝐍𝐆𝐑𝐄𝐒𝐀 𝐔𝐍 𝐄𝐍𝐋𝐀𝐂𝐄 𝐃𝐄 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐉𝐔𝐍𝐓𝐎 𝐀𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎.\n\n`𝑬𝑱𝑬𝑴𝑷𝑳𝑶:`\n' + `> *${usedPrefix + command}* https://youtu.be/QSvaCSt8ixs`, m, rcanal)
 
-if (!args[0].match(/youtu/gi)) return star.reply(m.chat, `Verifica que el enlace sea de YouTube.`, m, rcanal).then(_ => m.react('✖️'))
+if (!args[0].match(/youtu/gi)) return star.reply(m.chat, `❎ 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀 𝐐𝐔𝐄 𝐄𝐋 𝐄𝐍𝐋𝐀𝐂𝐄 𝐒𝐄𝐀 𝐃𝐄 𝐘𝐎𝐔𝐓𝐔𝐁𝐄.`, m, rcanal).then(_ => m.react('❎'))
 
 let q = args[1] || '360p'
 
@@ -44,13 +44,13 @@ if (size.split('MB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas
 
 if (size.split('GB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, rcanal).then(_ => m.react('✖️'))
 
-	let txt = '`乂  Y O U T U B E  -  M P 4 D O C`\n\n'
+	let txt = '`🎀𝐘𝐎𝐔𝐓𝐔𝐁𝐄 - 𝐌𝐏4𝐃𝐎𝐂🎀`\n\n'
 
-       txt += `	✩   *Titulo* : ${title}\n`
+       txt += `	➺   ** : ${title}\n`
 
-       txt += `	✩   *Calidad* : ${q}\n`
+       txt += `	➺   *Calidad* : ${q}\n`
 
-       txt += `	✩   *Tamaño* : ${size}\n\n`
+       txt += `	➺   *Tamaño* : ${size}\n\n`
 
        txt += `> *- ↻ Se está descargado su pedido 📥 espere un momento 《♡ Nakano》*`
 
