@@ -78,17 +78,17 @@ let img = await (await fetch(`${vid.thumbnail}`)).buffer()
 
 if (size.split('MB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, rcanal).then(_ => m.react('✖️'))
 
-if (size.split('GB')[0] >= limit) return star.reply(m.chat, `El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, rcanal).then(_ => m.react('✖️'))
+if (size.split('GB')[0] >= limit) return star.reply(m.chat, `𝐄𝐋 𝐀𝐑𝐂𝐇𝐈𝐕𝐎 𝐏𝐄𝐒𝐀 𝐌𝐀𝐒 𝐃𝐄 ${limit} 𝐌𝐁, 𝐒𝐄 𝐂𝐀𝐍𝐂𝐄𝐋𝐎 𝐋𝐀𝐍 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀📤.`, m, rcanal).then(_ => m.react('❎'))
 
-	let txt = '`乂  Y O U T U B E  -  M P 4 D O C`\n\n'
+	let txt = '`🎀𝐘𝐎𝐔𝐓𝐔𝐁𝐄 - 𝐌𝐏4𝐃𝐎𝐂`\n\n'
 
-       txt += `	✩   *Titulo* : ${title}\n`
+       txt += `	➺   *𝐓𝐈𝐓𝐔𝐋𝐎* : ${title}\n`
 
-       txt += `	✩   *Calidad* : ${q}\n`
+       txt += `	➺   *𝐂𝐀𝐋𝐈𝐃𝐀𝐃* : ${q}\n`
 
-       txt += `	✩   *Tamaño* : ${size}\n\n`
+       txt += `	➺   *𝐓𝐀𝐌𝐀Ñ𝐎* : ${size}\n\n`
 
-       txt += `> *- ↻ Se está descargado su pedido 📥 espere un momento @SonGoku*`
+       txt += `> *- ⟳ 𝐄𝐬𝐭𝐨𝐲 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐧𝐝𝐨 𝐭𝐮 𝐚𝐫𝐜𝐡𝐢𝐯𝐨,𝐩𝐨𝐫 𝐟𝐚𝐯𝐨𝐫 𝐞𝐬𝐩𝐞𝐫𝐚 𝐮𝐧 𝐩𝐨𝐜𝐨...*`
 
 await star.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, rcanal)
 
