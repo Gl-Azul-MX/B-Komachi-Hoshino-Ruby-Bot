@@ -135,10 +135,10 @@ if (opcion === '2' || methodCode) {
 
 opcion = '2'
 if (!conn.authState.creds.registered) {  
-if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
+if (MethodCode) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
 
 let numeroTelefono
-if (!!phoneNumber) {
+if (!!ADDNumber) {
 numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 if (!Object.keys(ADDNumber).some(v => numeroTelefono.startsWith(v))) {
 console.log(chalk.bgBlack(chalk.bold.redBright("Comience con el código de país de su número de WhatsApp.\nEjemplo: 5218261275256\n")))
